@@ -1,0 +1,68 @@
+*{
+  padding:0;
+  margin:0;
+  font-family: "Parkinsans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  box-sizing: border-box;
+}
+body{
+  background: #002339;
+  color:#fff;
+  display:flex;
+  justify-content: center;
+}
+.container{
+  margin:125;
+  width:90;
+  max-width:700px;
+}
+.display{
+  width:100%;
+  margin-top:50px;
+  margin-bottom:30px;
+  background-color: #fff;
+  display:flex;
+  color:#333;
+  align-items:center;
+  justify-content:space-between;
+  padding:26px 20px;
+  border-radius:5px;
+}
+.container h1{
+  font-weight:500;
+  font-size:45px;
+}
+.container h1 span{
+  color:#019f55;
+  border-bottom:4px solid #019f55;
+  padding-bottom:7px;
+}
+.display img{
+  width:30px;
+  cursor:pointer;
+}
+.display input{
+  border:0;
+  outline:0;
+  font-size:24px;
+}
+.container img{
+  width:28px;
+  margin-right:50px;
+
+}
+.container button{
+  border:0;
+  outline:0;
+  background:rgb(88, 164, 126);
+  font-size:23px;
+  font-weight:300;
+  color:#fff;
+  display:flex;
+  /*  align-items:center;the first will be the top and the bottom then the remaining will be the right and thr left */
+  padding:16px 26px;
+  border-radius:5px;
+  cursor:pointer;
+}
